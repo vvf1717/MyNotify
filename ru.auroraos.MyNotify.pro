@@ -43,11 +43,11 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
-    notifyiface.cpp \
+    src/notifyiface.cpp \
     src/main.cpp \
 
 HEADERS += \
-    notifyiface.h
+     src/notifyiface.h
 
 DISTFILES += \
     rpm/ru.auroraos.MyNotify.spec \
